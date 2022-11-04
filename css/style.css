@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Fuzzy+Bubbles&display=swap');
+
+
+*{
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+nav ul{
+    background-color:rgb(98, 90, 90);
+    text-align: center;
+    
+    
+}
+nav ul li{
+    padding: 15px;
+    display: inline-block;
+    margin-left:35px ;
+    
+}
+nav ul li a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background-color:red;
+}
+
+.main-img{
+    height: 300px;
+    background-image: url(../image/img1.jfif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+body{
+    background-color: #eee;
+}
+
+
+.content{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+}
+
+.content h1{
+    color: red;
+}
+
+.content p{
+    font-size: 20px;
+}
+
+.content img{
+    width: 300px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+.container h2{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 30px;
+    color: red;
+}
+
+.features{
+    display:flex;
+}
+
+.features .feature{
+    text-align: center;
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.features .feature:hover {
+box-shadow: 3px 3px 10px rgb(145, 145, 232);
+transform:translateX(3px);
+background-color: rgb(214, 215, 120);
+}
+
+.features i{
+ padding-top: 15px;
+ font-size: 30px;
+ background-color: red;
+ padding: 15px;
+ border-radius:50%;
+ color: white;
+}
+
+.features h3{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.contact-form{
+    width: 600px;
+    margin:auto;
+    background-color: white;
+    padding: 20px;
+    padding-top: 40px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+.input-form{
+  margin-bottom: 20px;
+}
+
+
+.input-form input{
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.input-form textarea{
+    width: 400px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button{
+ background-color: rgb(245, 141, 141);
+ color: white;
+ width: 220px;
+ height: 50px;
+ border: 1px solid white;
+ border-radius: 6px;
+ cursor: pointer;
+ font-size: 20px;
+}
+
+.inner-footer ul{
+    text-align: center;
+    background-color:#F8C7FF;
+}
+
+
+.inner-footer ul li{
+    display: inline-block;
+    padding: 20px;
+    margin-left:110px ;
+    margin-right: 120px;
+    font-size: 40px;
+}
+
